@@ -4,16 +4,17 @@ import { theme } from "../../global/styles/theme";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor : theme.colors.background
   },
   image: {
-    width: '100%',
-    height: 360,
+    width: 332,
+    height: 209,
+    marginBottom: 50,
+    marginTop: 300,
   },
   content: {
-    marginTop: -40,
+    marginTop: 100,
     paddingHorizontal: 50,
   },
   title: {

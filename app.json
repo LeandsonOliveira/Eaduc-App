@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "app_eaduc",
+    "name": "Eaduc",
     "slug": "app_eaduc",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +20,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.youeduc.eaduc",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
   title: {
     flex: 1,
     color: theme.colors.heading,
-    fontSize: 15,
+    fontSize: 20,
     textAlign: 'center',
   },
   iconWrapper: {
@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
     borderColor: theme.colors.line
   },
   icon: {
-    width: 24,
-    height: 18,
+    width: 28,
+    height: 21,
   }
 });
