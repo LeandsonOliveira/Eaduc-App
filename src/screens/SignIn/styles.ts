@@ -4,12 +4,13 @@ import { theme } from "../../global/styles/theme";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    backgroundColor : theme.colors.background
+    //alignItems: 'center',
+    //backgroundColor : theme.colors.background
   },
-  image: {
+  image: {    
+    alignSelf: 'center',
     width: 332,
-    height: 209,
+    height: 185,
     marginBottom: 50,
     marginTop: 300,
   },
@@ -22,6 +23,5 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     marginBottom: 16,
-  }
-
+  },
 });
